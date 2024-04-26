@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <nav>
+        <div id="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <span class="nav-links"><a href="#main"><b>Sudhanshu</b></a></span>
+        <span class="nav-links"><a href="#about">About me</a></span>
+        <span class = "nav-links"><a href="#projects">Projects</a></span>
+        <span class="nav-links"><a href="#skills">Skills</a></span>
+        <span class="nav-links"><a href="#contact">Contact me</a></span>
+    </nav>
+
+    <div id="about">
+        <h1>Sudhanshu Ranjan</h1>
+        <p class="designation">A <span class="desig"><u>web developer</u></span> and <span class="desig"><u>aspiring software engineer</u></span>.</p>
+        <img src="img/developer.png" alt="Developer">
+        <h2>About Me.</h2>
+        <p>I'm a M.C.A. graduate, a Software Engineer, and a web developer.</p>
+        <p>I'm proficient in Java, C++, C Programming language and have knowledge of Python as well.</p>
+        <!-- Resume Button -->
+        <a class="download-btn" href="Sudhanshu_Ranjan_CV.pdf" download>Sudhanshu Ranjan's CV</a>
+    </div>
+    <div id="projects">
+        <h2>Projects</h2>
+        <p>Here, I'm going to briefly discuss about the projects that I've worked upon!</p>
+
+        <main class="grid">
+            <article>
+              <img src="img/job.png" alt="Job recommendation system">
+              <div class="text">
+                <h3>Job recommendation system</h3>
+                <p>Built window based application using java swing to recommend jobs on the basis of education, interest and domain.</p>
+                <button class="Github-link"><a href="https://github.com/Sudhanshu-ranjan-00/jobRecommendationSwing" target="_blank">Github Link</a></button>
+              </div>
+            </article>
+            <article>
+              <img src="img/CGPA.png" alt="CGPA Calculator">
+              <div class="text">
+                <h3>CGPA Calculator</h3>
+                <p>Developed console application using c++ to calculate CGPA on the basis of student marks in different subjects.</p>
+                <button class="Github-link"><a href="https://github.com/Sudhanshu-ranjan-00/CGPA-Calculator"target="_blank">Github link</a></button>
+              </div>
+            </article>
+            <article>
+              <img src="img/farming.png" alt="Farming Solution">
+              <div class="text">
+                <h3>Farming Solution</h3>
+                <p>Developed Farmer's Solution website, A single site to solve all the problems of a farmer. Built using php, sql, html, css, javascript and bootstrap.</p>
+                <button class="Github-link"><a href="https://github.com/Sudhanshu-ranjan-00/pfarm" target="_blank">Github Link</a></button>
+              </div>
+            </article>
+            <article>
+              <img src="img/mysite.png" alt="Sample photo">
+              <div class="text">
+                <h3>Portfolio Website</h3>
+                <p>Developed responsive website suitable for mobile devices as well as desktop. Using html, css and JavaScript.</p>
+                <button class="Github-link"><a href="https://github.com/Sudhanshu-ranjan-00/My-site" target="_blank">Github Link</a></button>
+              </div>
+            </article>
+
+    </div>
+    <div id="skills">
+      <h2>Skills</h2>
+      <p>The skills that I possess are:</p>
+      <div class="card-container">
+          <div class="card">
+              <img src="img/java.png" alt="Java">
+              <h3>Java</h3>
+          </div>
+          <div class="card">
+              <img src="img/c-.png" alt="C++">
+              <h3>C++</h3>
+          </div>
+          <div class = "card">
+              <img src="img/c- (1).png" alt="C Programming">
+              <h3>C Programming</h3>
+          </div>
+          <div class="card">
+              <img src="img/python.png" alt="Python">
+              <h3>Python</h3>
+          </div>
+          <div class="card">
+              <img src="img/php.png" alt="PHP">
+              <h3>PHP</h3>
+          </div>
+          <div class="card">
+              <img src="img/html.png" alt="HTML">
+              <h3>HTML</h3>
+          </div>
+          <div class="card">
+              <img src="img/css.png" alt="CSS">
+              <h3>CSS</h3>
+          </div>
+          <div class="card">
+              <img src="img/javascript.png" alt="JavaScript">
+              <h3>JavaScript</h3>
+          </div>
+          <div class="card">
+              <img src="img/sql-server.png" alt="SQL">
+              <h3>SQL</h3>
+          </div>
+      </div>
+  </div>
+    <div id="contact">
+        <!-- Contact information goes here -->
+          <h2>Contact me</h2>
+          <form action="mailto:Rajaashujha@gmail.com" method="post" enctype="text/plain">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+              <label for="subject">Subject:</label>
+              <input type="text" id="subject" name="subject" placeholder="Enter subject" required><br><br>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+              <label for="contactno">Contact No:</label>
+              <input type="tel" id="contactno" name="contactno" placeholder="Enter your contact no" required><br><br>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message" ></textarea><br><br>
+              <input type="submit" value="Send">
+              <br><br><br>
+          </form>
+       
+    </div>
+    <footer>
+      <div class="footer-container">
+          <div class="footer-column">
+              <h2>About Us</h2>
+              <p>We are a team of passionate developers and designers who are dedicated to creating high-quality websites and applications.</p>
+          </div>
+          <div class = "footer-column">
+              <h2>Contact Us</h2>
+              <p>Email: Rajaashujha@gmail.com<br>Phone: +91 8847241872<br>Address: Hajipur, Bihar, Pin : 844504</p>
+          </div>
+          <div class="footer-column">
+              <h2>Follow Us</h2>
+              <ul>
+                  <li><a href="https://www.linkedin.com/in/sudhanshu00/" target="_blank">LinkedIn</a></li>
+                  <li><a href="mailto:Rajaashujha@gmail.com" target="_blank">Gmail</a></li>
+                  <li><a href="https://github.com/Sudhanshu-ranjan-00" target="_blank">GitHub</a></li>
+              </ul>
+          </div>
+      </div>
+      <p class="copyright">&copy; 2024 My Portfolio. All rights reserved.</p>
+  </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
